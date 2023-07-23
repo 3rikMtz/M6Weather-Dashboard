@@ -1,21 +1,34 @@
-# Weather_Dashboard
+# 🌤️ Weather Dashboard 
 
-## Description
+![Weather App](./assets/images/Main_page.png)
 
-This is the Weather Dashboard repository. The application was made with javascript and vanilla css. I also used the dayjs() library to display de current date. Here I applied mainly the knowledged I got from fetch and the promises, also I learned how arguments and parameters work in a function and how they can be called in another scope.
+## 📝 Description
 
-## Usage 
+This is a weather dashboard that runs in the browser and features dynamically updated HTML and CSS. It uses the 5 Day Weather Forecast API to retrieve weather data for cities.
 
-As a tourist you want to check the current weather of a city you are visiting. 
+## 🧳 User Story
 
-![alt-text](./assets/images/Main_page.png)
+AS A traveler,
+I WANT to see the weather outlook for multiple cities,
+SO THAT I can plan a trip accordingly.
 
-https://jonathanc0bosr.github.io/Weather_Dashboard/
+## ✨ Features
 
-## Licence
+1. 🔍 Search for a city to get current and future weather conditions.
+2. 📝 The city you searched for is added to the search history.
+3. 🌆 For each city, you'll see the name, the date, an icon representation of weather conditions, the temperature, the humidity, and the wind speed.
+4. 🗓️ You'll also get a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, the wind speed, and the humidity.
+5. 🔁 You can click on a city in the search history to view its current and future conditions again.
 
-This repository was licenced under the MIT licence
+## 🚀 Setup
 
+1. Clone the repository to your local machine.
+2. Open the `index.html` file in your browser.
 
+## 🎯 Usage
 
+To use the Weather Dashboard, simply input the name of the city you wish to see the weather for in the search bar. The current and future weather conditions for that city will then be displayed on the screen.
 
+## 📄 License
+
+This project is licensed under the terms of the [MIT License](./LICENSE).
