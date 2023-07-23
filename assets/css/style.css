@@ -1,0 +1,114 @@
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+header h1 {
+    font-size: 200%;
+    text-align: center;
+    background-color: #CECECE;
+    line-height: 65px;
+}
+
+
+div.side-part {
+    display: flex;
+    width: 250px;
+    justify-content: center;
+    text-align: center;;
+    /* border-right: 1px solid black; */
+    margin-top: 5px;
+    left: 0;
+}
+
+div.parent {
+    display: flex;
+}
+
+div.grid-container {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);   
+    grid-template-rows: 250px 200px;
+    align-items: center;
+    text-align: center;
+    margin-right: 10px;
+}
+
+div#big-card {
+    grid-column: 1 / 6;
+}
+
+div.big-card h1 {
+    font-size: 120%;
+}
+
+div.card-1 {
+    grid-column: 1 / 6;
+    display: flex;
+    justify-content: center;
+}
+
+.date{
+    border: 1px solid black;
+    font-style: italic;
+}
+
+.appendedtitle {
+    margin: 20px;
+    font-style: italic;
+}
+
+
+div.top-part h2  {
+    font-size: 150%;
+    margin: 10px;
+    font-weight: 700;
+}
+
+button {
+    margin: 10px;
+    width: 175px;
+    background-color: rgb(140, 158, 216);
+    height: 28px;
+    border-style: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.big-card  {
+    border: 1px solid black;
+}
+
+div#big-card h1 {
+    margin-bottom: 15px;
+    margin-top: 10px;
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+div#big-card p {
+    margin: 15px;
+}
+
+button:hover {
+    transform: scale(1.115);
+}
+
+li {
+    margin: 15px;
+    background-color: aqua;
+    line-height: 30px;
+    padding: 0 10px 0 5px;
+    border-radius: 5px;
+}
+
+.card-1 div {
+    margin: 15px;
+    background-color: white;
+    padding: 25px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.card-1 p {
+    margin: 10px 0 0 10px;
+}
